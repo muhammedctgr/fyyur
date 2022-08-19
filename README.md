@@ -142,19 +142,7 @@ git clone https://github.com/udacity/FSND.git
 cd FSND/projects/01_fyyur/starter_code 
 ```
 
-2. **Create an empty repository in your Github account online. To change the remote repository path in your local repository, use the commands below:**
-```
-git remote -v 
-git remote remove origin 
-git remote add origin <https://github.com/<USERNAME>/<REPO_NAME>.git>
-git branch -M master
-```
-Once you have finished editing your code, you can push the local repository to your Github account using the following commands.
-```
-git add . --all   
-git commit -m "your comment"
-git push -u origin master
-```
+2. **Create an empty repository in your Github account online.
 
 3. **Initialize and activate a virtualenv using:**
 ```
